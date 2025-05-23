@@ -1,6 +1,6 @@
 # calculations.py
 import math
-from abacus.utils import convert_units
+from utils import convert_units
 
 def handle_calculation(choice):
     if choice == '1':

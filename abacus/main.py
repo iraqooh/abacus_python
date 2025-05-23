@@ -1,10 +1,7 @@
-from abacus.menu import display_main_menu, handle_main_menu_input
-
-def display_welcome_message():
-    print("Welcome to Abacus Command Line Calculator!")
+from menu import display_main_menu, handle_main_menu_input
 
 def main():
-    display_welcome_message()
+    print("Welcome to Abacus Command Line Calculator!")
     while True:
         display_main_menu()
         choice = input("Enter your choice: ").strip().lower()
